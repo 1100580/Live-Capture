@@ -5,4 +5,14 @@
     <color name="blue">#000099</color>
     <color name="yellow">#FFFF00</color>
     <color name="app_blue">#005DDE</color>
+    <color name="pennapps_blue">#063246</color>
+    <color name="pennapps_blue_greener">#063446</color>
+    <color name="pennapps_salmon">#E64659</color>
+
+    <color name="coolors_dark_blue">#086788</color>
+    <color name="coolors_cream">#FFF1D0</color>
+    <color name="coolors_light_blue">#06AED5</color>
+    <color name="coolors_yellow">#F0C808</color>
+    <color name="coolors_red">#DD1D1A</color>
+
 </resources>

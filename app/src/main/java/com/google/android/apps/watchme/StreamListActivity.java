@@ -29,11 +29,15 @@ public class StreamListActivity extends Activity{
         StreamInfo si2 = new StreamInfo(getResources().getDrawable( R.drawable.common_ic_googleplayservices ), "Stream3", "Stream4");
         StreamInfo si3 = new StreamInfo(getResources().getDrawable( R.drawable.common_ic_googleplayservices ), "Stream5", "Stream6");
         StreamInfo si4 = new StreamInfo(getResources().getDrawable( R.drawable.common_ic_googleplayservices ), "Stream7", "Stream8");
+        StreamInfo si5 = new StreamInfo(getResources().getDrawable( R.drawable.common_ic_googleplayservices ), "Stream7", "Stream8");
         myDataset.add(si);
         myDataset.add(si2);
         myDataset.add(si3);
         myDataset.add(si4);
-
+        myDataset.add(si5);
+        myDataset.add(si5);
+        myDataset.add(si5);
+        myDataset.add(si5);
 
         RecyclerView recList = (RecyclerView) findViewById(R.id.streams_recycler_view);
         recList.setHasFixedSize(true);

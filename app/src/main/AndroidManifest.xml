@@ -51,11 +51,7 @@
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".StreamerActivity"
@@ -67,6 +63,15 @@
         <activity
             android:name=".StreamListActivity"
             android:label="@string/title_activity_stream_list" >
+        </activity>
+        <activity
+            android:name=".StarterActivity"
+            android:label="@string/title_activity_starter" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

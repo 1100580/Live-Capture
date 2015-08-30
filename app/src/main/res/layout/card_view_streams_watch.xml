@@ -5,7 +5,8 @@
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+    android:background="@color/coolors_cream">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -17,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            >
+            android:background="@color/pennapps_blue_greener">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -35,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/stream_name"
                 android:text="Placeholder Name"
+                android:textColor="@color/coolors_cream"
                 android:layout_toRightOf="@+id/stream_icon"
                 android:layout_alignParentTop="true"
                 android:textSize="30sp"
@@ -45,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/stream_desc"
                 android:text="Placeholder Description"
+                android:textColor="@color/coolors_cream"
                 android:layout_toRightOf="@+id/stream_icon"
                 android:layout_below="@+id/stream_name"
                 />
